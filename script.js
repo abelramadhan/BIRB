@@ -19,7 +19,7 @@ pipe[0] = {
 document.addEventListener("keydown",jump);
 document.addEventListener("click",jump);
 function jump() {
-   birb.y -= 70;
+   birb.y -= 100;
    speed = 0;
 }
    
